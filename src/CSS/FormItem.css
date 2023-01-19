@@ -1,0 +1,28 @@
+.done {
+  text-decoration: line-through;
+  width: 5px;
+}
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  color: black;
+  padding: 10px 20px;
+  width: 450px;
+  background: whitesmoke;
+  font-size: large;
+}
+
+@media (max-width: 600px) {
+  .item-row {
+    width: 210;
+  }
+}
+
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
